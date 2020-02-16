@@ -20,6 +20,6 @@
 ##### --|index.js
 
 ## Installation guide
-clone this Repo and 
---> npm install
---> npm start
+#### clone this Repo and 
+#### --> npm install
+#### -> npm start
