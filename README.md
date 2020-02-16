@@ -1,6 +1,7 @@
 # weekly-trending
  A page that shows weekly trending at Github. 
  Post are fetched from : https://github-trending-api.now.sh/repositories?since=weekly
+##### Check the live demo : https://git-weekly-trending.netlify.com/
 
 ## File Tree
 
