@@ -37,6 +37,73 @@ font-family: 'Lato', sans-serif;*/
   background-color: #1c2529;
   color:#FFFFFF;
 }
+/*Head and top content CSS*/
+
+.top-seciton{
+  padding:2rem 0 1rem 0;
+  background-image: url('./assets/head_bg.png');
+  height:90vh;
+  width:100%;
+  background-size: cover;
+}
+.nav{
+  max-width: 1200px;
+  padding:1rem;
+  margin:auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  background-image: url(./assets/logo.png);
+}
+.nav ul{
+  display:flex;
+  list-style: none;
+  position: relative;
+  left:0;
+}
+.nav li{
+  padding-right:1rem;
+}
+.nav li a{
+  color:#FFFFFF;
+}
+.nav li a:hover{
+  color:rgb(199, 193, 193);
+  text-decoration: none;
+}
+.nav img{
+  max-width:125px;
+  height:auto;
+}
+
+.top-content{
+  max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    height: 540px;
+    align-items: center;
+  
+}
+.top-left{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  align-content: center;
+  max-width: 610px;
+}
+.top-left h1{
+  font-size: 4rem;
+  padding-bottom: 1.2rem;
+
+}
+.top-left h3{
+  font-size: 2rem;
+
+}
 
 /*Main content part CSS*/
 /*content*/
@@ -162,4 +229,59 @@ font-family: 'Lato', sans-serif;*/
   width: 1rem;
     color: #909090;
     margin-right: 0.7rem;
+}
+
+/*footer*/
+
+.footer{
+  background-color: #004548;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-content img{
+  width: 60px;
+}
+.seemore{
+  text-align: left;
+  color:#0077FF
+}
+.seemore a{
+  color:#0077FF
+}
+.seemore a:hover{
+  color:rgb(0, 90, 192);
+  text-decoration:none;
+}
+
+/* for smaller screen than 900px*/
+
+@media screen and (max-width: 900px) {
+  .sort-select {
+    justify-content: center;
+  }
+  .data-list {
+    border-bottom: 4px solid #C9E7FF;
+    border-left:none;
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 200px;
+}
+.list-right {
+ 
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin: 0 0 0 2rem;
+}
+.seemore{
+  margin-left:2rem;
+}
+ 
 }

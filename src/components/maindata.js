@@ -53,7 +53,7 @@ class Maindata extends React.Component{
         const{isLoaded}=this.state;
         const sortedRepos = this.getSortedData();
         if(!isLoaded){
-            return(<div>Loading....</div>);
+            return(<div className="main-contents"> <h2 className="main-content-title">Loading....</h2></div>);
         }else{
             return(
                 <div className="main-contents">
