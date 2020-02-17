@@ -23,4 +23,6 @@
 ## Installation guide
 #### clone this Repo, or download the Zip file and extract to your react ready server(node installed) and run
 #### --> npm install
-#### -> npm start
+#### -> npm start 
+###### In case you have issue on installing clonned file. You can download Zip from my Google drive: https://drive.google.com/open?id=1q-8jR9HILkxth_9VFf_MX0KyXVRVgaBD Once downloaded, extract the zip file. Then you can do -> npm start , and npm install 
+
