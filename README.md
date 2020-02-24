@@ -4,7 +4,7 @@
 ##### Check the live demo from this link : https://git-weekly-trending.netlify.com/
 
 ## File Tree
-
+```
 ##### |Public
 ##### |src
 ##### --|assets
@@ -19,6 +19,7 @@
 ##### --|App.css
 ##### --|App.js
 ##### --|index.js
+```
 
 ## Installation guide
 #### clone this Repo, or download the Zip file and extract to your react ready server(node installed) and run
