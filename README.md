@@ -1,4 +1,4 @@
-<img scr="./screenshots/weekly-trending-screenshot.png" />
+<img src="./screenshots/weekly-trending-screenshot.png" />
 
 # weekly-trending
  A page that shows weekly trending at Github. 
@@ -7,7 +7,7 @@
 
 **Summary**
 
-I did this project as a part of coding excersise where I was provided an instruction, PDF mockup file, brand guideline and assets.  
+I did this project as a part of the coding exercise where I was provided an instruction, PDF mockup file, brand guideline, and assets.  
 
 
 *Technology used*
@@ -16,10 +16,10 @@ I did this project as a part of coding excersise where I was provided an instruc
 
 
 *What I did?*
-- Made responsive website according to given instructions.
+- Made a responsive website according to given instructions.
 - Fetched data from API - https://github-trending-api.now.sh/repositories?since=weekly
 - Displayed data according to the given design
-- Immplented filter option to filter list by stars count or a programming language used.
+- Implemented filter option to filter the list by stars count or a programming language used.
 
 ## How to run?
 - Clone my repository or download it
